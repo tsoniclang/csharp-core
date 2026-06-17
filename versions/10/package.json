@@ -1,0 +1,41 @@
+{
+  "name": "@tsonic/csharp-core",
+  "version": "10.0.46",
+  "description": "C# target implementation support for @tsonic/core",
+  "type": "module",
+  "types": "./runtime.d.ts",
+  "exports": {
+    "./runtime.js": {
+      "types": "./runtime.d.ts",
+      "default": "./runtime.js"
+    }
+  },
+  "files": [
+    "runtime.d.ts",
+    "runtime.js",
+    "runtime/**/*.d.ts",
+    "runtime/**/*.js",
+    "families.json",
+    "tsonic.package.json",
+    "tsonic.surface-implementation.json",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "tsonic",
+    "csharp",
+    "dotnet",
+    "runtime",
+    "surface-implementation"
+  ],
+  "author": "Tsonic Team",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tsoniclang/csharp-core.git"
+  },
+  "dependencies": {
+    "@tsonic/core": "10.0.46",
+    "@tsonic/dotnet": "10.0.46"
+  }
+}

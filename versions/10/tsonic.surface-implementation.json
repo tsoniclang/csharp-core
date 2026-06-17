@@ -1,0 +1,12 @@
+{
+  "schema": "tsonic.surface-implementation",
+  "target": "csharp",
+  "surface": "@tsonic/core",
+  "package": "@tsonic/csharp-core",
+  "runtimePackages": [
+    "Tsonic.CSharp.Runtime"
+  ],
+  "source": {
+    "exportsFrom": "./tsonic.package.json"
+  }
+}
