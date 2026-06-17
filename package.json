@@ -1,0 +1,9 @@
+{
+  "name": "@tsonic/csharp-core-repo",
+  "private": true,
+  "description": "Repo for @tsonic/csharp-core, the C# implementation of @tsonic/core support",
+  "type": "module",
+  "scripts": {
+    "publish:10": "npm publish ./versions/10 --access public"
+  }
+}

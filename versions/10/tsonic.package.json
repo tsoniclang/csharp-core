@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "kind": "tsonic-surface-implementation-package",
+  "target": "csharp",
+  "implements": [
+    "@tsonic/core"
+  ],
+  "requiredTypeRoots": [
+    "."
+  ],
+  "source": {
+    "namespace": "tsonic.csharp.core",
+    "exports": {
+      "./runtime.js": "./runtime.d.ts"
+    }
+  }
+}
